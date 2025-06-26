@@ -1,0 +1,1 @@
+{"123456": {"account_number": "123456", "pin_hash": "6a95bbab63d587b596398c4bd7e91a132f24032d2007d107e5ea71967724b092", "balance": 800.0, "transaction_history": [{"type": "Withdrawal", "amount": 200.0, "date": "2025-06-23 13:36:41"}]}}
