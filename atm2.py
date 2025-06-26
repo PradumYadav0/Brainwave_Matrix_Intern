@@ -132,7 +132,7 @@ class ATM:
         if account_data and hashlib.sha256(pin.encode()).hexdigest() == account_data[0]:
             otp = random.randint(100000, 999999)
             print(f"Simulated OTP sent: {otp}")  # For simulation
-            entered_otp = simpledialog.askstring("OTP Verification", "Enter the OTP sent to your email:", parent=self.root)
+            entered_otp = simpledialog.askstring("OTP Verification", "Enter the OTP sent to your terminal:", parent=self.root)
             if entered_otp and entered_otp == str(otp):
                 self.current_account = Account(acc_num, account_data[0], account_data[3], account_data[4], account_data[1], account_data[2])
                 self.logged_in = True
